@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-02-19 16:28:20.248910",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "username",
+  "section_break_2",
+  "profile_views",
+  "lastpost_time",
+  "column_break_5",
+  "post_count",
+  "topic_count"
+ ],
+ "fields": [
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Username",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "profile_views",
+   "fieldtype": "Int",
+   "label": "Profile Views"
+  },
+  {
+   "fieldname": "lastpost_time",
+   "fieldtype": "Datetime",
+   "label": "Lastpost Time"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "post_count",
+   "fieldtype": "Int",
+   "label": "Post Count"
+  },
+  {
+   "fieldname": "topic_count",
+   "fieldtype": "Int",
+   "label": "Topic Count"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-19 16:28:20.248910",
+ "modified_by": "Administrator",
+ "module": "Notice Board",
+ "name": "Users Profile",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-02-18 16:38:44.215247",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "main_pid",
+  "section_break_2",
+  "slug",
+  "lastpost_time",
+  "tab_break_4",
+  "viewcount",
+  "postcount"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Small Text",
+   "label": "Title"
+  },
+  {
+   "fieldname": "slug",
+   "fieldtype": "Data",
+   "label": "Slug"
+  },
+  {
+   "fieldname": "viewcount",
+   "fieldtype": "Int",
+   "label": "Viewcount"
+  },
+  {
+   "fieldname": "postcount",
+   "fieldtype": "Int",
+   "label": "Postcount"
+  },
+  {
+   "fieldname": "lastpost_time",
+   "fieldtype": "Datetime",
+   "label": "Lastpost Time"
+  },
+  {
+   "fieldname": "tab_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "main_pid",
+   "fieldtype": "Link",
+   "label": "Main PID",
+   "options": "Post"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-19 16:16:39.957834",
+ "modified_by": "Administrator",
+ "module": "Notice Board",
+ "name": "Topic",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
